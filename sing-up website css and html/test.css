@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    position: relative;
+    width: 100%;
+    height:300px;
+    background-color: #333;
+    box-shadow: 10px 5px 8px #888888;
+  }
+  .logo1 {
+    position: absolute;
+    top: 31% ;
+    right: 90%;
+    color: gold;
+    font-size: 100px;
+    font-style: italic;
+    transform: scalex(2);
+  }
+  .links {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    font-style: none;
+  }
+  .links a {
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    margin: 0 100px;
+  }
+  .links a:hover {
+    color: gold;
+    transform: translateY(-10px);
+  }
+  .search1 {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    
+  }
+  #search2 {
+    font-size: 100px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    float: left;
+    background: #f1f1f1;
+  }
+  ::placeholder {
+    font-size: 60px;
+    color: #333;
+    padding: 20px;
+    
+  }
+  .search1 #submit {
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    height: 126px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: gold;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  i {
+    color: #333;
+    font-size: 50px;
+  }
+  
+  .content {
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    background-image: linear-gradient(
+   rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(ordi-1200x800.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  h1 {
+    position: absolute;
+    top: 20%;
+    right: 69.5% ;
+    font-size: 100px;
+    color: goldenrod;
+    font-weight: bold;
+  }
+  .min {
+    position: absolute;
+    top: 33%;
+    right: 63% ;
+    font-size: 80px;
+    color: #eee;
+    font-weight: bold;
+  }
+  .max {
+    position: absolute;
+    top: 45%;
+    right: 53% ;
+    width: 1500px;
+    font-size: 60px;
+    color: #eee;
+    font-weight: bold;
+  }
+  
+  .sing-up {
+    background-color: #333;
+    position: absolute;
+    top: 15%;
+    right: 12%;
+    width: 1350px;
+    height: 1300px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    box-shadow: 18px 20px 69px 18px rgb(0 0 0);
+  }
+  
+  h2 {
+    margin: 57px 570px;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    color: gold;
+  }
+  .sing-word {
+    margin: 60px 350px;
+    font-size: 47px;
+    color: white;
+    font-weight: bold;
+  }
+  #name {
+    font-size: 67px;
+    width: 1100px;
+    height: 127px;
+    margin: 36px 121px;
+    border-radius: 50px;
+    padding-left: 200px;
+  }
+  #name::placeholder {
+    padding-right: 760px;
+    text-align: right;
+  }
+  .users {
+    position: absolute;
+    top: 355px;
+    right: 1074px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    background-color: white;
+  
+  }
+  .users #user {
+    font-size: 80px;
+  }
+  
+  #email {
+    font-size: 67px;
+    width: 1100px;
+    height: 127px;
+    margin: 36px 121px;
+    border-radius: 50px;
+    padding-left: 200px;
+  }
+  .email-logo {
+    position: absolute;
+    top: 553px;
+    right: 1074px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    background-color: white;
+  
+  }
+  .email-logo #the-i {
+    font-size: 80px;
+  }
+  #email::placeholder {
+    padding-right: 760px;
+    text-align: right;
+  }
+  
+  #password2 {
+    font-size: 67px;
+    width: 1100px;
+    height: 127px;
+    margin: 36px 121px;
+    border-radius: 50px;
+    padding-left: 200px;
+  }
+  .password-logo {
+    position: absolute;
+    top: 749px;
+    right: 1074px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    background-color: white;
+  
+  }
+  .password-logo #the-i1 {
+    font-size: 80px;
+  }
+  #password2::placeholder {
+    padding-right: 760px;
+    text-align: right;
+  }
+  
+  .acespte {
+    color: goldenrod;
+    display: block;
+    position: relative;
+    top: 44px;
+    right: -128px;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 59px;
+  }
+  #acspte {
+      display: flex;
+      flex-direction: row-reverse;
+      position: absolute;
+      top: 11px;
+      right: 530px;
+  }
+  .acspte1 {
+    width: 50px;
+    height: 50px;
+  }
+  .submit {
+    position: absolute;
+    top: 1102px;
+    right: 500px;
+    width: 400px;
+    height: 120px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, goldenrods, orange);
+    box-shadow: 0px 10px 20px rgba(255, 215, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  #value {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    background: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .submit:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgba(255, 165, 0, 0.7);
+  }
+  
+  .submit:active {
+    transform: scale(0.95);
+    box-shadow: 0px 5px 10px rgba(255, 165, 0, 0.7);
+  }
+  
+  footer {
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    background-color: #745915;
+    padding-top: 100px; /* Add space at the top */
+  }
+  
+  .logo2 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: gold;
+    font-size: 80px;
+    font-style: italic;
+    transform: scaleX(2);
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 200px; /* Moves the container down below .logo2 */
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-column h3 {
+    font-size: 60px; /* Increased size */
+    font-weight: bold;
+    margin-bottom: 30px; /* Space below headings */
+    color: white;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 20px; /* Adds spacing between links */
+  
+  }
+  
+  .footer-column a:hover {
+    color: ghostwhite;
+  }
+  
+  .footer-column1 {
+    position: absolute;
+    top: 20%;
+    right: 78%;
+    
+  }
+  .footer-column2 {
+    position: absolute;
+    top: 20%;
+    right: 62%;
+    
+  }
+  .footer-column3 {
+    position: absolute;
+    top: 20%;
+    right: 41%;
+    
+  }
+  .footer-column4 {
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    
+  }
+     
